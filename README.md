@@ -139,6 +139,10 @@ The system provides:
 ## Visualization
 
 - **Model Comparison**: Bar chart visualization comparing accuracies of all trained models
+
+| Accuracy Comparison |
+|---------------------|
+| ![image](https://github.com/mohanabandlamudi/cropiq/blob/main/assets/accuracies.png) |
 - **Performance Metrics**: Detailed accuracy scores for each model displayed in the visualization
 
 ## Technical Details
