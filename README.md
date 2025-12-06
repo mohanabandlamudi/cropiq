@@ -1,5 +1,5 @@
 
-# CROPIQ an AI-Powered Crop Assistant System for India: District and Month-Specific Insights for Optimized Agricultural Practices
+# CROPIQ, an AI-Powered Crop Assistant System for India: District and Month-Specific Insights for Optimized Agricultural Practices
 
 ## Overview
 
@@ -239,32 +239,6 @@ The system provides:
      ```
    - Streamlit Cloud will automatically redeploy your app with the latest changes
 
-### Important Notes for Deployment
-
-- **File Size Limits**: 
-  - GitHub has a 100MB file size limit per file
-  - If your `.pkl` or `.parquet` files are too large, consider using Git LFS (Large File Storage) or hosting them elsewhere
-  - Streamlit Cloud has a 1GB repository size limit
-
-- **Required Files for Deployment**:
-  - ✅ `app.py` - Main Streamlit application
-  - ✅ `requirements.txt` - Python dependencies
-  - ✅ `crop_recommendation_model.pkl` - Trained model
-  - ✅ `scaler.pkl` - Feature scaler
-  - ✅ `label_encoder.pkl` - Label encoder
-  - ✅ `district_wise_rainfall_normal.parquet` - Rainfall data
-  - ✅ All CSV/Parquet data files used by the app
-
-- **Optional Files** (not required for deployment but useful):
-  - `recommendation.ipynb` - For retraining models
-  - `README.md` - Documentation
-  - `.gitignore` - Git ignore rules
-
-- **Troubleshooting**:
-  - If deployment fails, check the logs in Streamlit Cloud dashboard
-  - Ensure all dependencies in `requirements.txt` are correct
-  - Verify all `.pkl` and `.parquet` files are committed to GitHub
-  - Check that file paths in `app.py` match the repository structure
 
 ## Contributing
 
