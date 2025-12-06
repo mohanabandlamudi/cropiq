@@ -1,5 +1,5 @@
 
-# CROPIQ, an AI-Powered Crop Assistant System for India: District and Month-Specific Insights for Optimized Agricultural Practices
+# CROPIQ, an AI-Powered Crop Assistant System for India: District and Month-Specific Insights for Optimized Agricultural Practices - https://cropiq.streamlit.app/
 
 ## Overview
 
